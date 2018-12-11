@@ -177,6 +177,14 @@ body{
     color:lightblue;
 }
 
+.hvr-overline-from-right:before{
+    background:#4aaaa5;
+}
+
+.hvr-radial-out:before{
+    background:#666666;
+}
+
 @media screen and (min-width:767px){
     html, body, .main_content, .image, .header, footer, .hvr-radial-out{
         max-width:960px;
@@ -191,7 +199,6 @@ body{
 
     .main_content{
         border:2px solid #4aaaa5;
-        font-size:2.5vw;
     }
 
     .overlay {
@@ -217,7 +224,6 @@ body{
     }
 
     footer{
-        font-size:2vw;
         position:relative;
         bottom:0;
 
