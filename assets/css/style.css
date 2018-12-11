@@ -185,6 +185,11 @@ body{
     background:#666666;
 }
 
+.hvr-reveal:before{
+    border-color:#4aaaa5;
+}
+
+
 @media screen and (min-width:767px){
     html, body, .main_content, .image, .header, footer, .hvr-radial-out{
         max-width:960px;
